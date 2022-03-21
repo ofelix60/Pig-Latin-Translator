@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/876267a2c5.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="style.css" />
+		<title>Pig Latin</title>
+	</head>
+	<body>
+		<div class="notification-container" id="notification-container">
+			<p>Field cannot be empty</p>
+		</div>
+		<div class="container">
+			<h1>English to Pig Latin</h1>
+			<form>
+				<textarea id="eng-text" name="english"></textarea>
+				<input id="btn" class="btn" type="submit" value="Translate" />
+				<button id="btn-clear" class="btn-clear">X</button>
+			</form>
+			<div class="translation">
+				<p id="pig-text" class="pig-text"></p>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
